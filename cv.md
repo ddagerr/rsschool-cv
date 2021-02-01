@@ -39,3 +39,13 @@ Tel: +375293788127
 cout << "===\nSuccessfully copied\n===\n";
     }
 ```
+##EXPERIENCE##
+
+##EDUCATION##
+*2019-Nowadays* 
+ **BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS**
+- Faculty of Information Technologies ans Control
+- Speciality: Automated Information Processing Systems
+##ENGLISH##
+**ESTIMATED ENGLISH LEVEL 
+B1**
