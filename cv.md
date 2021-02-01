@@ -10,3 +10,8 @@ Tel: +375293788127
 - sociability
 - responsibility
 - diligence
+
+#####My goals and priorities:#####
+- to improve the level of my knowledge
+- to achieve an acceptable level of knowledge for employment
+- development within the profession
