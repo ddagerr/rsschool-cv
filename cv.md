@@ -20,3 +20,22 @@ Tel: +375293788127
 - Object Oriented Programming Basics
 - C++
 - Git & GitHub
+
+##CODE EXAMPLE##
+```c++
+//Конструктор копирования
+    TextFile(const TextFile& file) :
+        length(file.length)
+    {
+       strcpy_s(name, file.name);
+       if (file.buff)
+      {
+         buff = new char[length];
+        for (int i = 0; i < length; i++)
+       {
+          buff[i] = file.buff[i];
+     }
+}
+cout << "===\nSuccessfully copied\n===\n";
+    }
+```
