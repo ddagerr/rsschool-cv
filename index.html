@@ -8,6 +8,7 @@
     <title>CV</title>
 </head>
 <body>
+    <main>
     <div class="cv">
         <img class="photo" src="img/dasha.jpg" width="230" height="230" alt="Darya Gershanok">
         <h1 class="name">DARYA GERSHANOK</h1>
@@ -44,8 +45,26 @@
                 <li>Git & GitHub</li>
             </ul>
         </div>
+        <h2>CODE EXAMPLE</h2>
 
 
+    <pre><code>TextFile(const TextFile& file) :
+        length(file.length)
+    {
+        strcpy_s(name, file.name);
+        if (file.buff)
+        {
+            buff = new char[length];
+            for (int i = 0; i < length; i++)
+            {
+                buff[i] = file.buff[i];
+            }
+        }
+        cout << "====\nSuccessfully copied\n====\n";
+    }</code></pre>
+
+    
     </div>
+</main>
 </body>
 </html>
