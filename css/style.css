@@ -15,5 +15,17 @@ body {
 
 .name {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
+}
+
+.photo {
+    display: block;
+    width: 230;
+    height: 230;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 30px;
 }
