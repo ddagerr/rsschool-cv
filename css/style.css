@@ -1,14 +1,14 @@
 body {
     font-family: sans-serif;
-    background:url(../img/flowers2.jpg) no-repeat;
+    background:url(../img/flowers.jpg) no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 1000px;
 }
 
 .cv {
     width: 880px;
     margin: 30px auto;
-    height: 700px;
+    height: 900px;
     padding: 0;
     position:relative
 }
@@ -16,26 +16,30 @@ body {
 .left {
     margin: 0;
     padding: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(240, 240, 240);
     background-color: rgba(0, 0, 0,0.5);
     position: absolute;
     left: 0;
     width: 300px;
-    height: 700px;
+    height: 920px;
 }
 
 .right {
     margin: 0;
     padding: 20px;
-    padding-top: 260px;
+    padding-top: 280px;
     background-color: rgba(240, 240, 240, 0.6);
     position: absolute;
     right: 0;
     width: 500px;
-    height: 460px;
+    height: 660px;
 }
 .name {
-    
+    width: 225px;
+    padding-left: 5px;
+    border-left: 2px solid rgb(56, 17, 12);
+    border-right: 2px solid rgb(56, 17, 12);
+    color: rgb(230, 203, 184);
     font-size: 32px;
 }
 
@@ -43,21 +47,108 @@ body {
     display: block;
     width: 230;
     height: 230;   
-    border: 3px solid rgb(56, 17, 12);
+    border: 3px double rgb(56, 17, 12);
 }
 
 h2 {
+    border-radius: 30% 10%;
+    width: 150px;
+    background-color: rgb(151, 107, 57);
     font-size: 20px;
-}
-
-.strengths {
-    padding: 0 20px;
-}
-
-.skills {
-
-    padding-top: 0;
-}
- h2 {
      margin: 5px 0;
- }
+}
+
+.code {
+    font-size: 20px;
+    text-shadow:0 1px 0 rgba(255,255,255,.5);
+}
+
+.right-block {
+    padding-bottom: 70px;
+}
+
+.about-me{
+    padding-left: 5px;
+    background-color: rgba(243, 237, 230,0.7);
+    border: 1px solid rgb(151, 107, 57);
+}
+
+.date-engl{
+    padding-left: 5px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 150px;
+    background-color: rgb(230, 203, 184);
+
+}
+
+.inf {
+    margin-left: 20px;
+    font-weight: bold;
+    
+    background-color: rgb(230, 210, 189);
+}
+
+.level {
+    text-align-last: center;
+    padding-top: 5px;
+    border: 2px solid rgb(151, 107, 57);
+    font-weight: bold;
+    width: 30px;
+    height: 25px;
+    margin-left: 50px;
+    border-radius: 50%;
+    background-color: rgb(230, 210, 189);
+}
+.link{
+    padding-top: -10px;
+    border-radius: 30% 10%;
+    width: 150px;
+    background-color: rgb(151, 107, 57);
+    font-size: 20px;
+    margin: 5px 0;
+    font-style: normal;
+    color:  rgb(255, 255, 255);
+    text-shadow: 0 0 0 rgb(0,0,0);
+    text-decoration: none;
+}
+.link:hover{
+    color:rgb(0,0,0);
+}
+ .rounded { 
+    counter-reset: li;
+    list-style: none;  
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0 20px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rounded a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    background: #DAD2CA;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: .3s ease-out;
+}
+.rounded a:hover {background: #E9E4E0;}
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #bb8948;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
