@@ -1,33 +1,53 @@
 body {
-    font-family: 'Times New Roman';
-    background: url(../img/background.jpg) ;
+    font-family: sans-serif;
+    background:url(../img/flowers2.jpg) no-repeat;
+    background-size: cover;
+    height: 800px;
 }
 
 .cv {
-    width: 800px;
+    width: 880px;
     margin: 30px auto;
-    padding: 20px;
-
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 20px rgb(139, 139, 139);
-
+    height: 700px;
+    padding: 0;
+    position:relative
 }
 
+.left {
+    margin: 0;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0,0.5);
+    position: absolute;
+    left: 0;
+    width: 300px;
+    height: 700px;
+}
+
+.right {
+    margin: 0;
+    padding: 20px;
+    padding-top: 260px;
+    background-color: rgba(240, 240, 240, 0.6);
+    position: absolute;
+    right: 0;
+    width: 500px;
+    height: 460px;
+}
 .name {
-    text-align: center;
-    font-size: 40px;
+    
+    font-size: 32px;
 }
 
 .photo {
     display: block;
     width: 230;
-    height: 230;
-    margin: 0 auto;
-    border-radius: 50%;
+    height: 230;   
+    border: 3px solid rgb(56, 17, 12);
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .strengths {
@@ -36,6 +56,8 @@ h2 {
 
 .skills {
 
-    padding: 0 20px;
+    padding-top: 0;
 }
-
+ h2 {
+     margin: 5px 0;
+ }
