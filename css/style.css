@@ -1,8 +1,9 @@
 body {
     font-family: sans-serif;
-    background:url(../img/flowers.jpg) no-repeat;
+    background:url(../img/mountain.jpg) no-repeat;
     background-size: cover;
     height: 1000px;
+    background-attachment: scroll;
 }
 
 .cv {
@@ -21,29 +22,36 @@ body {
     position: absolute;
     left: 0;
     width: 300px;
-    height: 920px;
+    height: 880px;
 }
 
 .right {
     margin: 0;
     padding: 20px;
-    padding-top: 280px;
+    
     background-color: rgba(240, 240, 240, 0.6);
     position: absolute;
     right: 0;
     width: 500px;
-    height: 660px;
+    height: 880px;
 }
 .name {
-    width: 225px;
+    text-align: center;
+    width: 480px;
+    margin-bottom: 200px;
     padding-left: 5px;
     border-left: 2px solid rgb(56, 17, 12);
     border-right: 2px solid rgb(56, 17, 12);
-    color: rgb(230, 203, 184);
+    color: rgb(32, 13, 0);
     font-size: 32px;
 }
+.name:hover {
+    color: rgb(151, 107, 57);
+}
+
 
 .photo {
+    margin-bottom: 20px;
     display: block;
     width: 230;
     height: 230;   
@@ -53,9 +61,13 @@ body {
 h2 {
     border-radius: 30% 10%;
     width: 150px;
-    background-color: rgb(151, 107, 57);
+    color: rgb(0, 0, 0);
+    background-color: rgb(201, 190, 204);
     font-size: 20px;
      margin: 5px 0;
+}
+h2:hover {
+    color: rgb(255, 255, 255);
 }
 
 .code {
@@ -73,7 +85,7 @@ h2 {
     border: 1px solid rgb(151, 107, 57);
 }
 
-.date-engl{
+.date{
     padding-left: 5px;
     text-transform: uppercase;
     border-radius: 20px;
@@ -92,13 +104,16 @@ h2 {
 .level {
     text-align-last: center;
     padding-top: 5px;
-    border: 2px solid rgb(151, 107, 57);
+    border: 2px solid rgb(0, 0, 4);
     font-weight: bold;
     width: 30px;
     height: 25px;
     margin-left: 50px;
     border-radius: 50%;
     background-color: rgb(230, 210, 189);
+}
+.level:hover{
+    background-color: seashell;
 }
 .link{
     padding-top: -10px;
