@@ -1,9 +1,9 @@
 body {
     font-family: sans-serif;
-    background:url(../img/mountain.jpg) no-repeat;
+    background:url(../img/opacity2.jpg) no-repeat;
     background-size: cover;
     height: 1000px;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 .cv {
